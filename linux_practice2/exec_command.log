@@ -1,0 +1,138 @@
+    1  docker stop centos7
+    2  docker stop basic_php_webdev_master_php_1
+    3  docker stop centos7
+    4  ls -a
+    5  ls -l
+    6  ls -la
+    7  ls /
+    8  ls/usr
+    9  ls /usr
+   10  pwd
+   11  cd ~
+   12  cd /
+   13  cd /root
+   14  pwd
+   15  cd usr
+   16  cd /usr
+   17  pwd
+   18  cd /home
+   19  mkdir test1
+   20  ls
+   21  mkdir -p test2/test3
+   22  ls
+   23  ls test2
+   24  cd /home
+   25  touch test1/index.php
+   26  ls test1
+   27  cd /home/test1 && ls
+   28  cp index.php copy.php
+   29  ls
+   30  cd /home
+   31  cp -r test1 test4
+   32  ls
+   33  ls test4
+   34  cd /home
+   35  mv test2/test3 test3
+   36  ls
+   37  mv test4 test1_copy
+   38  ls
+   39  cd /home
+   40  ls test1
+   41  rm test1/copy.php
+   42  ls test1
+   43  rm -r test3
+   44  ls
+   45  cd /home
+   46  rm test_copy/*.php
+   47  y
+   48  ls
+   49  ls test1_copy
+   50  rm test1_copy/*.php
+   51  ls test1_copy
+   52  cat README.md
+   53  cd /home
+   54  echo '# Heool World' > README.md
+   55  cat README,md
+   56  ls
+   57  cat README.md
+   58  echo '# server Lesson' > README.md
+   59  cat README.md
+   60  echo 'Linux Practice' >> README.md
+   61  echo '--------------' >> README.md
+   62  cat README.md
+   63  cd /home
+   64  vi README.md
+   65  vi README.md
+   66  cd /root
+   67  mkdir server_lesson && cd server_lesson
+   68  yum update -y && yum -y install git
+   69  git version
+   70  git init
+   71  touch first.txt
+   72  ls
+   73  mkdir linux_practice1
+   74  ls
+   75  cd linux_practice1
+   76  mkdir public
+   77  public
+   78  cd public
+   79  touch index.php
+   80  cp index.php index_bk.php
+   81  ls
+   82  cd linux_practice1
+   83  ls
+   84  cd ,,/
+   85  cd ./..
+   86  cp -r public tmp
+   87  ls
+   88  cd tmp
+   89  rm index_bk.php
+   90  ls
+   91  cd ./../..
+   92  touch README.md
+   93  ls
+   94  vi README.md
+   95  vi README.md
+   96  ls
+   97  mkdir linux_practice2
+   98  ls
+   99  cd linux_practice2
+  100  mkdir documents
+  101  ls
+  102  cd documents
+  103  touch gizumo{01..50}.md
+  104  ls
+  105  ls
+  106  ls | grep 'csv'
+  107  ls | grep 1
+  108  ls | grep -E [20-40]
+  109  cd ./..
+  110  ls
+  111  mkdir trash
+  112  ls
+  113  mv gizumo{20..40}.md trash
+  114  cd documents
+  115* 
+  116  cd ./..
+  117  cd trash
+  118  ls
+  119  cd documents
+  120  cd ./..
+  121  cd documents
+  122  mv gizumo{20..40}.md ./../trash
+  123  cd ./..
+  124  cd trash
+  125  ls
+  126  cd ./..
+  127  touch .gitignore
+  128  ls
+  129  ls -a
+  130  cd .gitignore
+  131  vi .gitignore
+  132  cd .gitignore
+  133  vi .gitignore
+  134  history 300
+  135  tocuh exec_command.log
+  136  touch exec_command.log
+  137  ls
+  138  history 300 >> exec_command.log
